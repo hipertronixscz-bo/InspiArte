@@ -11,7 +11,7 @@ a{text-decoration:none;color:inherit}
 .header{position:relative;z-index:20;background:rgba(251,250,247,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav-wrap{max-width:1180px;margin:auto;height:96px;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
 .brand{height:96px;display:flex;align-items:center;overflow:hidden}
-.brand img{width:220px;max-height:82px;height:auto;display:block;object-fit:contain;content:url('LogoLineal.JPG')}
+.brand img{width:220px;max-height:82px;height:auto;display:block;object-fit:contain;content:url('LogoOfi.png')}
 .nav{display:flex;gap:28px;align-items:center;font-weight:600;font-size:.94rem}
 .nav a:hover{color:var(--teal)}
 .menu-btn{display:none;border:0;background:none;font-size:28px;color:var(--deep)}
@@ -29,7 +29,7 @@ h1 em{color:var(--teal)}
 .light{background:#fff;color:var(--deep)}
 .small{padding:10px 18px;font-size:.9rem}
 .hero-card{justify-self:center;width:min(440px,100%);padding:35px;background:#fff;border:1px solid #dff4f4;border-radius:32px;box-shadow:var(--shadow);text-align:center}
-.hero-card img{width:100%;max-width:360px}
+.hero-card img{width:100%;max-width:360px;content:url('LogoOfi.png')}
 .hero-card p{color:#698486;font-size:.9rem}
 .section{max-width:1180px;margin:auto;padding:95px 24px}
 .section-head{text-align:center;max-width:720px;margin:0 auto 45px}
