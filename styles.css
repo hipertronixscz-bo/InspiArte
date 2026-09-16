@@ -9,9 +9,9 @@ html{scroll-behavior:smooth}
 body{font-family:'DM Sans',Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
 a{text-decoration:none;color:inherit}
 .header{position:relative;z-index:20;background:rgba(251,250,247,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.nav-wrap{max-width:1180px;margin:auto;height:78px;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
-.brand{height:78px;display:flex;align-items:center;overflow:hidden}
-.brand img{width:118px;max-height:64px;height:auto;display:block;object-fit:contain;content:url('LogoLineal.JPG')}
+.nav-wrap{max-width:1180px;margin:auto;height:90px;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+.brand{height:90px;display:flex;align-items:center;overflow:hidden}
+.brand img{width:190px;max-height:76px;height:auto;display:block;object-fit:contain;content:url('LogoLineal.JPG')}
 .nav{display:flex;gap:28px;align-items:center;font-weight:600;font-size:.94rem}
 .nav a:hover{color:var(--teal)}
 .menu-btn{display:none;border:0;background:none;font-size:28px;color:var(--deep)}
@@ -59,7 +59,7 @@ h1 em{color:var(--teal)}
 .contact-card img{width:180px}.contact-card h3{font-family:'Playfair Display',serif;font-size:1.8rem}.contact-card p{color:#71898a;margin-bottom:8px}.contact-card a{color:var(--teal);font-weight:700}
 footer{text-align:center;padding:28px;background:#f0f8f7;color:#6b8182;font-size:.85rem}
 @media(max-width:850px){
-  .nav{display:none;position:absolute;top:78px;left:0;right:0;background:#fff;padding:18px 24px;flex-direction:column;gap:15px;border-bottom:1px solid var(--line)}
+  .nav{display:none;position:absolute;top:90px;left:0;right:0;background:#fff;padding:18px 24px;flex-direction:column;gap:15px;border-bottom:1px solid var(--line)}
   .nav.open{display:flex}.menu-btn{display:block}
   .hero{grid-template-columns:1fr;padding-top:55px;text-align:center}.hero-content{margin:auto}.hero-actions{justify-content:center}
   .hero-card{width:min(390px,100%)}
@@ -70,8 +70,8 @@ footer{text-align:center;padding:28px;background:#f0f8f7;color:#6b8182;font-size
 @media(max-width:560px){
   .service-grid,.package-grid,.gallery-grid{grid-template-columns:1fr}.section{padding:70px 18px}.hero{padding-left:18px;padding-right:18px}
   .contact-card{flex-direction:column;text-align:center}.contact-card img{width:150px}
-  .nav-wrap{padding:0 18px}
-  .brand img{width:150px;max-height:56px}
+  .nav-wrap{padding:0 18px;height:80px}.brand{height:80px}
+  .brand img{width:170px;max-height:60px}
 }
 
 /* Galería de trabajos reales */
