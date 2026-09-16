@@ -37,7 +37,7 @@ h1 em{color:var(--teal)}
 .section-head p{color:#647d7f}
 .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .service{background:#fff;padding:30px 22px;border:1px solid #e1eeee;border-radius:24px;box-shadow:0 8px 25px rgba(0,80,85,.05);min-width:0}
-.service span{font-size:0;display:block;width:36px;height:36px;line-height:1;background-size:contain;background-repeat:no-repeat;background-position:center;margin-bottom:12px}
+.service span{font-size:0;display:block;width:72px;height:72px;line-height:1;background-size:contain;background-repeat:no-repeat;background-position:center;margin-bottom:12px}
 .service:nth-child(1) span{background-image:url('Decoracion.png')}
 .service:nth-child(2) span{background-image:url('Detalles&Obsequios.png')}
 .service:nth-child(3) span{background-image:url('Desayunos.png')}
@@ -81,6 +81,7 @@ footer{text-align:center;padding:28px;background:#f0f8f7;color:#6b8182;font-size
   .contact-card{flex-direction:column;text-align:center}.contact-card img{width:150px}
   .nav-wrap{padding:0 18px;height:80px}.brand{height:80px}
   .brand img{width:190px;max-height:65px}
+  .service span{width:64px;height:64px}
 }
 
 /* Galería de trabajos reales */
