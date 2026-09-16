@@ -36,8 +36,11 @@ h1 em{color:var(--teal)}
 .section h2,.cta h2{font-family:'Playfair Display',serif;font-size:clamp(2.3rem,4vw,3.5rem);line-height:1.1;margin-bottom:13px}
 .section-head p{color:#647d7f}
 .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.service{background:#fff;padding:30px;border:1px solid #e1eeee;border-radius:24px;box-shadow:0 8px 25px rgba(0,80,85,.05)}
-.service span{font-size:2rem}.service h3{margin:12px 0 7px}.service p{color:#71898a;font-size:.94rem}
+.service{background:#fff;padding:0;border:1px solid #e1eeee;border-radius:24px;box-shadow:0 8px 25px rgba(0,80,85,.05);overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.service>img{display:block;width:100%;height:220px;object-fit:cover;object-position:center}
+.service-content{padding:20px 22px 24px}
+.service h3{margin:0 0 7px;font-size:1.08rem}
+.service p{color:#71898a;font-size:.94rem}
 .packages{max-width:none;background:#e9f8f7}
 .package-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .package{background:#fff;border-radius:26px;overflow:hidden;box-shadow:var(--shadow)}
@@ -74,6 +77,7 @@ footer{text-align:center;padding:28px;background:#f0f8f7;color:#6b8182;font-size
   .contact-card{flex-direction:column;text-align:center}.contact-card img{width:150px}
   .nav-wrap{padding:0 18px;height:80px}.brand{height:80px}
   .brand img{width:190px;max-height:65px}
+  .service>img{height:auto;aspect-ratio:1/1;object-fit:cover}
 }
 
 /* Galería de trabajos reales */
